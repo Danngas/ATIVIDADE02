@@ -2,13 +2,15 @@
 ## Repositório da Atividade 2 (Participativa): Controle de pinos GPIO da ferramenta educacional BitDogLab
 ## Links Importantes
 
+
 - **Simulação**: [Simulação do Projeto no Wokwi](https://wokwi.com/projects/420513306795728897)
-- **Vídeo Demonstrativo**: [Vídeo Demonstrativo do Projeto](link-do-video)
+- **Vídeo Demonstrativo**: [Vídeo Demonstrativo do Projeto](https://youtu.be/eqFk_JDuntc)
+  
 ### GRUPO 5 SUBGRUPO 2
 
 ---
 
-### COMPONENTES
+### MENBROS ATIVOS NO PROJETO
 
 - **Daniel Silva de Souza**
 - **Clarisse Santana Leite**

@@ -22,7 +22,6 @@ void initialize_gpio()
     gpio_set_dir(LED_RED_PIN, GPIO_OUT);
     gpio_set_dir(LED_GREEN_PIN, GPIO_OUT);
     gpio_set_dir(LED_BLUE_PIN, GPIO_OUT);
-
     // Inicializar o pino do Buzzer como saída
     gpio_init(BUZZER_PIN);
     gpio_set_dir(BUZZER_PIN, GPIO_OUT);
@@ -77,10 +76,9 @@ void control_rgb_led(const char *comando)
 
     if (strcmp(comando, "BUZZER") == 0)
     {
-        for (int j = 0; j <= 10; j++)
-        {
-            beep(BUZZER_PIN, 500); // Bipe de 500ms
-        }
+        
+            beep(BUZZER_PIN, 2000); // Bipe de 500ms
+       
     }
 
     if (strcmp(comando, "RED") == 0)
