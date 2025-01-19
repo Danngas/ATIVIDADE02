@@ -11,6 +11,7 @@
 ### COMPONENTES
 
 - **Daniel Silva de Souza**
+- **Clarisse Santana Leite**
 - **[Adicionar nomes dos outros membros aqui]**
 
 ---

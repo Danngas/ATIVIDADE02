@@ -64,6 +64,13 @@ void beep(uint pin, uint duration_ms)
     sleep_ms(100); // Pausa de 100ms
 }
 
+void handle_key_5() {
+    // Desliga todos os LEDs
+    gpio_put(LED_RED_PIN, 0);   
+    gpio_put(LED_GREEN_PIN, 0); 
+    gpio_put(LED_BLUE_PIN, 0);  
+}
+
 // Função para controlar o LED RGB com base no comando
 void control_rgb_led(const char *comando)
 {
@@ -101,6 +108,11 @@ void control_rgb_led(const char *comando)
         gpio_put(LED_GREEN_PIN, 1);
         gpio_put(LED_BLUE_PIN, 1);
     }
+
+    if (strcmp(comando, "KEY5") == 0)
+{
+    handle_key_5();  // Chama a função que desliga todos os LEDs
+}
 
     if (strncmp(comando, "RGB", 3) == 0)
     {
