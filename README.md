@@ -51,7 +51,7 @@ A comunicação com o sistema embarcado é feita via **porta serial UART** e os 
 
 O repositório contém os seguintes arquivos:
 
-- **main.c**: Código em C que implementa o controle dos periféricos (LED RGB e Buzzer).
+- **bitdoglab_gpio_control.c**: Código em C que implementa o controle dos periféricos (LED RGB e Buzzer).
 - **README.md**: Este arquivo, contendo a descrição do projeto e instruções.
 - **Makefile**: Arquivo de configuração para compilar o código usando o Pico SDK.
 
