@@ -10,7 +10,7 @@
 
 ---
 
-### COMPONENTES
+### MENBROS ATIVOS NO PROJETO
 
 - **Daniel Silva de Souza**
 - **[Adicionar nomes dos outros membros aqui]**
