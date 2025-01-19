@@ -4,6 +4,10 @@
 
 - **Simulação**: [Simulação do Projeto no Wokwi](https://wokwi.com/projects/420513306795728897)
 - **Vídeo Demonstrativo**: [Vídeo Demonstrativo do Projeto]([link-do-video](https://youtu.be/eqFk_JDuntc))
+- **Simulação**: [Simulação do Projeto no Wokwi](https://wokwi.com/projects/420513306795728897)
+- **Vídeo Demonstrativo**: [Vídeo Demonstrativo do Projeto](https://youtu.be/eqFk_JDuntc)
+
+- 
 ### GRUPO 5 SUBGRUPO 2
 
 ---
