@@ -1,0 +1,5 @@
+[wokwi]
+version = 1
+firmware = 'build/bitdoglab_gpio_control.uf2'
+elf = 'build/bitdoglab_gpio_control.elf'
+gdbServerPort=3333
