@@ -1,0 +1,54 @@
+Instruções para usar o PuTTY com comunicação via porta serial UART
+
+1 - Baixar e instalar o PuTTY:
+
+Acesse o site oficial do PuTTY: https://www.putty.org/.
+Realize o download da versão apropriada para o seu sistema operacional.
+Durante a instalação, selecione as opções padrão, clicando em Next até concluir a instalação.
+
+2 - Verificar a porta COM de comunicação da placa:
+
+Conecte sua placa à porta USB do seu computador (certifique-se de que a placa não esteja no modo de gravação).
+Abra o Gerenciador de Dispositivos no Windows. Para isso, clique com o botão direito do mouse no menu Iniciar e selecione Gerenciador de Dispositivos.
+Expanda a seção Portas (COM & LPT). Ali, você verá a porta COM correspondente à sua placa (por exemplo, COM4).
+
+Configurar o PuTTY:
+
+Abra o PuTTY.
+No menu Session (Sessão), selecione a opção Serial para o tipo de conexão.
+Em Serial line, digite a porta COM que corresponde à sua placa (por exemplo, COM4).
+Em Speed (baud rate), insira 115200.
+
+3-Ajustar as configurações de terminal No PuTTY:
+
+Vá até a aba Terminal e marque as opções Force on para as caixas Implicit CR in every LF e Local Echo.
+Conectar-se ao dispositivo:
+
+Certifique-se de que o código já esteja carregado na sua placa e que ela esteja devidamente conectada ao PC.
+Clique em Open para abrir o monitor serial.
+Enviar comandos:
+
+Após a conexão, você poderá enviar comandos para a sua placa diretamente no terminal do PuTTY, de acordo com o código que estiver rodando nela.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+METODO ALTERNATIVO PELO TERMINAL DO VSCODE
+
+Instruções para usar o terminal do VSCode com comunicação via porta serial UART
+
+
+Abra o Visual Studio Code.
+No menu superior, clique em Terminal e depois em New Terminal para abrir o terminal.
+Acessar o Serial Monitor:
+Isso abrirá a interface de monitoramento serial diretamente no VSCode.
+Configurar as opções de comunicação:
+
+View Mode: Selecione a opção Text.
+Port: Selecione a porta COM que corresponde à sua placa (por exemplo, COM4).
+Baud rate: Defina como 115200.
+Line Ending: Escolha uma das opções de fim de linha: LF, CR, ou CRLF. O recomendado é CRLF.
+Iniciar o monitoramento:
+
+Clique em Start Monitoramento para começar a monitorar a comunicação serial.
+Enviar comandos:
+
+Na parte inferior da interface, você verá uma caixa de texto onde poderá digitar e enviar os comandos para sua placa conforme o código que está rodando nela.
